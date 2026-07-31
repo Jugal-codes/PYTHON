@@ -48,4 +48,20 @@ print("Your height is", height, "meters")
 
 
 
+# Multi line comment in python can be done using triple quotes (''' ''' or """ """).
+"""
+qwertyhj
+aswedrfgh
+sdf
+"""
+
+
+# Indentation is important in python, it is used to define the scope of loops, functions, and classes.
+# In python, we use indentation to indicate a block of code.
+if 5 < 2 : 
+    print("5 is greater than 2") #5 is greater than 2
+else :
+    print("5 is not greater than 2")
+
+
 
