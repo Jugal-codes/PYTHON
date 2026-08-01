@@ -76,16 +76,4 @@ print(type(set)) #<class 'set'>
 
 
 
-# We can identify multiple variable in one line
-a, b, c = 1, "Hello", 3.14
-print(a) #1
-print(b) #Hello
-print(c) #3.14
-
-# We can store one value in  multiple variable
-x = y = z = 10
-print(x) #10
-print(y) #10
-print(z) #10
-
 
