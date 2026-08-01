@@ -5,6 +5,10 @@
 # 3. Logical Operators
 # 4. Assignment Operators 
 # 5. Bitwise Operators
+# 6. Identity Operators
+# 7. Membership Operators
+
+
 
 # Arithmetic Operators
 a = 5
@@ -77,4 +81,16 @@ x **= 3
 print(f"Exponent and Assign : x **= 3 -> value of x is {x}")
 
 
+# Identity Operators - Used to compare memory location.
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3]
+print(a is b)     #True - same object in memory 
+print(a is c)     #False - different memory location
+
+# Membership Operators : Used to check if a value exists inside a sequence (list, string, tuple)
+print("a" in "apple")   #True
+print("x" in "apple")   #False
+print("x" not in "apple")   #True
+print("a" not in "apple")   #False
 
