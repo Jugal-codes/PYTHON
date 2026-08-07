@@ -72,7 +72,6 @@ print(f"Largest number is: {largest_num}")
 
 
 # Task 10: Armstrong Number
-
 # Check whether a number is an Armstrong number.
 
 # 153
