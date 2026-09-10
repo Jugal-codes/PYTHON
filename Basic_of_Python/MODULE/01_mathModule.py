@@ -5,7 +5,7 @@ The math module in Python provides built-in mathematical functions for:
 It works with numbers, not strings or lists.
 '''
 
-# Way of import math madule
+# Way of import math module
 '''
 1. import only 1 function from math module
 from math import pow
