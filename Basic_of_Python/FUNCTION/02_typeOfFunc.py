@@ -1,6 +1,4 @@
 '''
-Function is block of code that perform specific task
-
 Types of Function :    
     1.Built-in Function     2.User-defined Function
 
@@ -102,6 +100,7 @@ print(result) #[{'name': 'Kiran', 'age': 30}, {'name': 'Raj', 'age': 25}, {'name
 
 students = [("Raj", 80), ("Amit", 60), ("Kiran", 90)]
 print(sorted(students, key=lambda x: x[1])) #[('Amit', 60), ('Raj', 80), ('Kiran', 90)]
+
 
 
 
