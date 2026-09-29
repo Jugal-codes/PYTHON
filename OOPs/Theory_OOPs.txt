@@ -1,0 +1,109 @@
+Solving a problem by creating object is one of the most popular approaches in programming.
+This is called object-oriented programming.
+
+This concept focus on using reusable code or DRY principle.
+DRY - Don't Repeat Yourself
+
+
+CLASS : a  class is a blueprint for creating object.
+class contains info to create a valid object.
+
+Syntax : 
+class Employee:     #class_name written in pascal case
+    # methods & variables
+
+
+OBJECT : an object is an instantiation of class. when class is defined, a temp(info) is defined.
+Memory is allocated only after object instantiation.
+
+
+MODELING A PROBLEM IN OOPS:
+    Noun -> Class -> Employees
+    Adjective -> Attributes -> name, age, salary
+    Verbs -> Methods -> getSalary(), increment()
+
+
+1. CLASS ATTRIBUTES : 
+An attribute that belongs to the class rather than a particular object.
+
+Example : 
+class Employee:
+    company = "Google"      # specific to each class
+
+emp = Employee()      # Object instantiation
+print(emp.company)
+
+Employee.company = "Meta"       # Changing class attribute
+
+
+2. INSTANCE ATTRIBUTES :
+An attribute that belongs to instance (object).
+
+Example : 
+class Employee:
+    company = "Google"      # specific to each class
+
+emp = Employee()        # Object instantiation
+emp.name = "Amita"      # Instance attribute
+print(emp.name, emp.company)
+
+
+SELF PARAMETER :
+self refers to the instance of a class. 
+It is automatically passed with a function call from an object.
+
+Example :
+class Employee:
+    company = "Google"
+
+    def greet(self):
+        print(f"Welcome to {self.company}!")
+    
+emp = Employee()
+emp.greet()
+
+
+STATIC METHOD :     decorator
+sometimes we need a function that does not use the self-parameter.
+
+Example:
+    class Static:
+    @staticmethod   
+    def hello():
+        print("Hello Users!")
+
+    s1 = Static()
+    s1.hello()
+
+
+__INIT__() CONSTRUCTOR :    dunder method
+__init__() is a special method which is first run as soon as the object is created.
+__init__() method is also known as constructor.
+It takes self-argument and can also take further arguments.
+
+Example: 
+    class Employee:
+        def __init__(self, name):
+            self.name = name
+
+
+
+* OOPs main 4 Concept:
+    1. Inheritance
+    2. 
+    3.
+    4.
+
+
+1. Inheritance :
+    Inheritance is a way of creating a new class from an existing class.
+    Syntax : 
+        class Employee:     #Base class
+            //code
+        
+        class Programmer(Employee):     #Derived or Child class
+            //code
+    
+    We can use the method and attributes of 'Employee' in 'Programmer' object.
+    Also, We can overwrite or add new attributes and methods in 'Programmer' class
+
